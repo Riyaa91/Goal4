@@ -1,0 +1,183 @@
+.header-container {
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  .header-heading-1 {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(50% 50% at 50% 50%, #de0d92 0%, #3bd3e9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .header-img {
+    margin-top: 50px;
+  }
+  .header-heading-2 {
+margin-top: 30px;
+    width: 1104px;
+    p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 60px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        
+    }
+    span{
+        background: radial-gradient(50% 50% at 50% 50%, #DE0D92 0%, #3BD3E9 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+
+    }
+  }
+  .header-para{
+margin-top: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 1164px;
+   }
+}
+@media screen and (max-width:1024px){
+  .header-container {
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    .header-heading-1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 60px;
+      display: flex;
+      align-items: center;
+      background: radial-gradient(50% 50% at 50% 50%, #de0d92 0%, #3bd3e9 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .header-img {
+       
+      top: 90px;
+      img{
+        width: 600px;
+      }
+    }
+    .header-heading-2 {
+       
+      top: 100px;
+      width: 700px;
+      p {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 35px;
+          line-height: 40px;
+          align-items: center;
+          text-align: center;
+          color: #FFFFFF;
+          
+      }
+      span{
+          background: radial-gradient(50% 50% at 50% 50%, #DE0D92 0%, #3BD3E9 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+  
+      }
+    }
+    .header-para{
+       
+      top:140px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 32px;
+      color: #FFFFFF;
+      width: 700px;
+    }
+  }
+}
+@media screen and (max-width:786px){
+  .header-container {
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    .header-heading-1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 60px;
+      display: flex;
+      align-items: center;
+      background: radial-gradient(50% 50% at 50% 50%, #de0d92 0%, #3bd3e9 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .header-img {
+       
+      top: 90px;
+      img{
+        width: 300px;
+      }
+    }
+    .header-heading-2 {
+       
+      top: 100px;
+      width: 300px;
+      p {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 40px;
+          align-items: center;
+          text-align: center;
+          color: #FFFFFF;
+          
+      }
+      span{
+          background: radial-gradient(50% 50% at 50% 50%, #DE0D92 0%, #3BD3E9 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+  
+      }
+    }
+    .header-para{
+       
+      top:140px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      color: #FFFFFF;
+      width: 300px;
+    }
+  }
+}
+

@@ -1,0 +1,154 @@
+.nav-container
+{
+    // width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    .main-nav
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav-logo
+        {
+            img{
+                width: 180px;
+                margin-top: 6px;
+            }
+        }
+        .main-nav-links{
+            // display: flex;
+            // justify-content: ce-evenly;
+            align-items: center;
+            .nav-links{
+                margin: 5px 20px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 24px;
+                color: #F3F4F8;
+                text-decoration: none;
+            }
+            .link-login
+            {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 24px;
+                color: #3D6BF5;;
+
+            }
+            .nav-links-btn
+            {
+                padding: 12px 37px;
+                background: linear-gradient(71.52deg, #14F3F6 -7.28%, #FF00B8 123.71%);
+                border-radius: 8px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #F3F4F8;
+                outline: none;
+                border: none;
+
+            }
+        }
+    }
+}
+@media screen and (min-width:1025px) { 
+    .bars-cross{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .nav-container{
+
+        .main-nav{
+
+            .bars-cross{
+                display: block;
+                margin-left: 500px;
+                font-size: 22px;
+            }
+            .main-nav-links.active{
+                right: 30px
+            }
+            .main-nav-links{
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                position: fixed;
+                right: -330px;
+                top: 8%;
+                width: 300px;
+                height: 40vh;
+                background-color: rgba(12, 12, 12, 0.842);
+                border-radius: 8px;
+                .nav-links{
+                    margin: 14px 20px;
+                    font-family: "Poppins";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 24px;
+                    color: #F3F4F8;
+                    text-decoration: none;
+                }
+                .link-login{
+                    color: #3D6BF5;
+                }
+            }
+        }
+    }
+    
+}
+
+
+@media screen and (max-width:786px) {
+    .nav-container{
+
+        .main-nav{
+            
+            .bars-cross{
+                display: block;
+                margin-left: 113px;
+                font-size: 22px;
+            }
+            .main-nav-links.active{
+                right: 30px
+            }
+            .main-nav-links{
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                position: fixed;
+                right: -330px;
+                top: 12%;
+                width: 300px;
+                height: 48vh;
+                background-color: rgba(12, 12, 12, 0.923);
+                border-radius: 8px;
+                .nav-links{
+                    margin: 10px 20px;
+                    font-family: "Poppins";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #F3F4F8;
+                    text-decoration: none;
+                }
+                .link-login{
+                    color: #3D6BF5;
+                }
+            }
+        }
+    }
+    
+}
+
